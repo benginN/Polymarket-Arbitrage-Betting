@@ -2,6 +2,24 @@
 
 A Python-based arbitrage monitoring tool that scrapes prediction markets (specifically designed for Polymarket) to identify profitable arbitrage opportunities across multiple betting outcomes. The tool automatically checks for price discrepancies that could result in guaranteed profits and provides Discord notifications for real-time alerts.
 
+⚠️ Market Compatibility: This tool only works with complete, non-overlapping markets where all possible outcomes are covered and mutually exclusive.
+✅ Compatible Markets:
+
+Binary markets (Yes/No)
+Complete categorical markets (e.g., "Which team will win?" covering all teams)
+Exhaustive outcome markets (e.g., "Price range on date X" with ranges covering all possibilities)
+
+❌ Incompatible Markets:
+
+Overlapping outcome markets (e.g., "Will Bitcoin hit $50k?" and "Will Bitcoin hit $60k?" - both can be true)
+Incomplete markets (missing possible outcomes)
+Markets with "Other" or undefined categories
+Conditional markets where outcomes aren't mutually exclusive
+
+Example: A market asking "Will it rain tomorrow?" (Yes/No) works perfectly. A market with outcomes "Heavy rain" and "Light rain" doesn't work because "No rain" isn't covered, making arbitrage impossible.
+
+The key point is that for arbitrage to work mathematically, you need to be able to bet on ALL possible outcomes of an event, and those outcomes must be mutually exclusive (only one can happen).
+
 ## Features
 
 - **Multi-URL Monitoring**: Monitor multiple prediction markets simultaneously
@@ -154,16 +172,6 @@ The script identifies arbitrage opportunities by:
 
 **Positive margin = Arbitrage opportunity exists**
 
-## File Structure
-
-```
-arbitrage-monitor/
-├── main.py              # Main script file
-├── log.txt              # Log file (auto-generated)
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
-```
-
 ## Logging
 
 The script creates comprehensive logs including:
@@ -254,7 +262,6 @@ We welcome contributions! Here's how to get started:
 
 - **Issues**: Open an issue on GitHub
 - **Feature Requests**: Create an issue with the "enhancement" label  
-- **Security Issues**: Email [your-email@domain.com] directly
 
 ## License
 
