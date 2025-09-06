@@ -262,17 +262,56 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-**⚠️ Important Notice**
+**⚠️ COMPREHENSIVE LEGAL DISCLAIMER**
 
-This software is provided for educational and research purposes only. Users should be aware that:
+### Educational Purpose Only
+This software is provided **strictly for educational and research purposes**. It is designed to:
+- Teach arbitrage concepts and market analysis techniques  
+- Demonstrate web scraping and data analysis methods
+- Provide a learning platform for understanding prediction markets
+- **NOT to provide financial advice or guarantee profits**
 
-- **Financial Risk**: Arbitrage trading involves financial risk, and users should never invest more than they can afford to lose
-- **Verification Required**: Always verify all calculations and opportunities independently before placing any bets
-- **Platform Compliance**: Ensure compliance with all platform terms of service and local regulations
-- **No Guarantees**: The developers provide no guarantees about profitability or accuracy
-- **Market Changes**: Prediction markets are volatile and opportunities may disappear quickly
-- **Legal Compliance**: Users are responsible for ensuring their activities comply with applicable laws
+### User Responsibilities
+By using this software, you acknowledge and agree that:
 
-**The developers are not responsible for any financial losses, legal issues, or other consequences arising from the use of this software.**
+#### Platform Compliance
+- **Terms of Service**: You are solely responsible for compliance with Polymarket's Terms of Service and any other applicable platform policies
+- **Automated Access**: Some platforms prohibit automated access - you must verify current terms before use
+- **Account Risk**: Use of automated tools may violate platform terms and could result in account suspension or termination
 
-Use this tool responsibly and at your own discretion.
+#### Legal and Regulatory Compliance  
+- **Jurisdiction Laws**: You must ensure that prediction market participation is legal in your jurisdiction
+- **Regulatory Requirements**: You are responsible for compliance with all local gambling, financial, and tax regulations
+- **Geographic Restrictions**: Access to prediction markets may be restricted in certain locations
+
+#### Financial and Risk Considerations
+- **No Financial Advice**: This software does not provide financial, investment, or trading advice
+- **Independent Verification**: You must independently verify all calculations, opportunities, and market data
+- **Financial Risk**: All trading involves risk of financial loss - never risk money you cannot afford to lose
+- **No Guarantees**: No guarantee of profitability, accuracy, or successful arbitrage opportunities
+
+#### Technical and Ethical Use
+- **Responsible Scraping**: Do not modify rate limiting or delays - respect server resources
+- **Educational Intent**: Use only for learning and research purposes, not for commercial exploitation  
+- **Data Accuracy**: Market data may be delayed, inaccurate, or incomplete
+
+### Limitation of Liability
+The developers and contributors of this software:
+- **Provide no warranties** of any kind, express or implied
+- **Are not responsible** for any financial losses, legal issues, account suspensions, or other consequences
+- **Make no representations** about the accuracy, completeness, or reliability of the software
+- **Shall not be liable** for any direct, indirect, incidental, special, or consequential damages
+
+### Changes to Terms and Markets
+- **Platform Changes**: Prediction market platforms may change their terms, structure, or policies at any time
+- **Legal Changes**: Laws and regulations regarding prediction markets may change
+- **Software Updates**: This software may require updates to remain functional
+
+### Final Warning
+**Use this software at your own risk and discretion. The developers strongly recommend:**
+- Consulting with legal and financial professionals before engaging in prediction market activities
+- Starting with small amounts to understand the risks involved  
+- Thoroughly reading and understanding all platform terms of service
+- Ensuring compliance with all applicable laws and regulations in your jurisdiction
+
+**By using this software, you acknowledge that you have read, understood, and agree to be bound by this disclaimer.**
