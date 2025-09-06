@@ -763,19 +763,16 @@ if __name__ == "__main__":
     # Configurations
     
     #ADD YOUR URLS HERE
+    #Example: "https://polymarket.com/event/elon-musk-of-tweets-august-29-september-5"
     urls = [
-            "https://polymarket.com/event/elon-musk-of-tweets-august-29-september-5",
-            "https://polymarket.com/event/bitcoin-price-on-september-5?tid=1756601598730",
-            "https://polymarket.com/event/ethereum-price-on-september-5?tid=1756601602539",
-            "https://polymarket.com/event/solana-price-on-september-5?tid=1756601600579"
     ]
     
-    webhook_url = 'https://discord.com/api/webhooks/1411094569852080230/_hWFPQpX1XSLqeF52o0_ci6LC6MIp3LNBEgnd7TEgKrAbFLx4Ny4tQCad2H6GEwy6wh8'
-    log_webhook_url = 'https://discord.com/api/webhooks/1411109425023811644/HzWKw4bXW9mklz5ZF9-yvxgzN9iDqjIJBuxZS2F3sGfiWPJOKHYyhISxL4GDmZtXW3_C'  #(set to None to disable)
+    webhook_url = ''
+    log_webhook_url = ''  #(set to None to disable)
     
     price_class = "c-dhzjXW c-dhzjXW-jVLVTy-zIndex-1 c-dhzjXW-bZmKkd-justifyContent-end c-dhzjXW-fVlWzK-gap-3"
     outcome_class = "c-dhzjXW c-dhzjXW-bZmKkd-justifyContent-end c-dhzjXW-jroWjL-alignItems-center"
-    CHECK_INTERVAL_MINUTES = 0.5  # Change this to modify check frequency
+    CHECK_INTERVAL_MINUTES = 1  # Change this to modify check frequency
     
     # Configurations
     # Configurations
